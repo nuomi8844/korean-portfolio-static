@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站文件下载</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .download-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s;
+        }
+
+        .download-item:hover {
+            border-color: #3498db;
+            transform: translateY(-2px);
+        }
+
+        .download-title {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        .download-desc {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .download-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .download-link:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+        }
+
+        .size {
+            background: #e74c3c;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+
+        .website-link {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+
+        .website-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 网站文件下载</h1>
+
+        <div class="download-item">
+            <div class="download-title">
+                ⭐ 最新完整版 <span class="size">426KB</span>
+            </div>
+            <div class="download-desc">
+                最新构建的完整网站包，包含所有功能、图片和优化。推荐下载此版本。
+            </div>
+            <a href="./latest-complete-website.zip" class="download-link" download>立即下载</a>
+        </div>
+
+        <div class="download-item">
+            <div class="download-title">
+                📦 完整静态包 <span class="size">2.3MB</span>
+            </div>
+            <div class="download-desc">
+                包含完整静态网站文件、说明文档和部署指南。适合直接上传到服务器。
+            </div>
+            <a href="./static-website-complete.zip" class="download-link" download>下载完整包</a>
+        </div>
+
+        <div class="download-item">
+            <div class="download-title">
+                💼 源码项目 <span class="size">851KB</span>
+            </div>
+            <div class="download-desc">
+                Next.js 完整源代码项目，包含所有组件和配置。适合开发者进行二次开发。
+            </div>
+            <a href="./original-website-complete.zip" class="download-link" download>下载源码</a>
+        </div>
+
+        <div class="download-item">
+            <div class="download-title">
+                🎯 精简版本 <span class="size">403KB</span>
+            </div>
+            <div class="download-desc">
+                只包含核心静态文件，体积小巧。适合快速部署和测试。
+            </div>
+            <a href="./static-website.zip" class="download-link" download>下载精简版</a>
+        </div>
+
+        <div class="download-item">
+            <div class="download-title">
+                🏆 完美最终版 <span class="size">427KB</span>
+            </div>
+            <div class="download-desc">
+                经过完美优化的网站版本，所有功能完整运行。
+            </div>
+            <a href="./website-perfect-final.zip" class="download-link" download>下载最终版</a>
+        </div>
+
+        <div class="website-link">
+            <p>🌐 <a href="/">返回主网站</a></p>
+        </div>
+    </div>
+</body>
+</html>
